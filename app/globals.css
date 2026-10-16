@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #fbfcfe; color: #172033; }
+::selection { background: #dbeafe; color: #172033; }
+.section-anchor { scroll-margin-top: 96px; }
